@@ -1,0 +1,173 @@
+<!--หน้าหลัก-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tree Database</title>
+
+    <!--ตรงนี้ใส่เพื่อเรียกใช้ฟ้อนคัดลอกมาจาดเว็บ Googlefront-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">
+ 
+    <!--เอาคำสั่งใช้bootstap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!--เอาคำสั่งตกแต่งมาจากไฟล์ style.css-->
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- มีการใช้ Bootstrab -->
+    <!--แท็บบาร์ข้างบนที่มีโลโก้,หน้าหลัก,เกี่ยวกับ-->
+    <nav class="navbar navbar-light ">
+
+        <!-- โค้ดนี้สำหรับใส่รูปโลโก้หน้าชื่อเว็บ(แก้รูปได้) -->
+        <img src="Image/Greentree_icon1.png" class="img-thumbnail" alt="Cinque Terre" width="50px" height="40px">
+
+        <a class="navbar-brand">Green Tree</a> <!-- ชื่อเว็บติดซ้ายมือ -->
+        <div class="ms-auto">
+            <a class="navbar-brand " href="Main.html">หน้าหลัก</a><!-- ติดขวามือ -->
+            <a class="navbar-brand " href="About.html">เกี่ยวกับเรา</a><!-- ติดขวามือ -->
+            <br>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="banner">
+        <!-- มีแค่ตัวอักษรให้ banner ที่เป็นภาพต้นไม้ ต้องทำใน CSS -->
+        <h1>Tree Database</h1>
+        <p>รวมพันธุ์ไม้ในคณะวิทยาศาสตร์</p>
+
+    </div>
+    <!-- หมวดหมู่ -->
+    <div class="d-flex flex-wrap justify-content-center">
+        <!-- แยกเป็นกระเปาะ card ให้แล้ว ที่เหลือคือตกแต่งใน CSS -->
+        <!-- จัดตรงกลางให้แล้วแค่ไปปรับแต่ง .Memu{}  -->
+        <div class="Menu">
+            <a href="Fabaceae.html">
+                <img src="Image/icon-f.png" width="50px" height="40px"><br><!--ใส่รูปไอคอนพันธุ์(แก้รูปได้)-->
+            </a>
+
+            <a href="Fabaceae.html">วงศ์ถั่ว</a>
+        </div>
+
+        <div class="Menu">
+            <a href="Palmae.html">
+                <img src="Image/icon-p.png" width="50px" height="40px"><br><!--ใส่รูปไอคอนพันธุ์(แก้รูปได้)-->
+            </a>
+
+            <a href="Palmae.html">วงศ์ปาล์ม</a>
+        </div>
+
+        <div class="Menu">
+            <a href="Moraceae.html">
+                <img src="Image/icon-m.jpg" width="50px" height="40px"><br><!--ใส่รูปไอคอนพันธุ์(แก้รูปได้)-->
+            </a>
+
+            <a href="Moraceae.html">วงศ์หม่อน</a>
+        </div>
+
+        <div class="Menu">
+            <a href="Apocynaceae.html">
+                <img src="Image/icon-ap.png" width="50px" height="40px"><br><!--ใส่รูปไอคอนพันธุ์(แก้รูปได้)-->
+            </a>
+
+            <a href="Apocynaceae.html">วงศ์ตีนเป็ด</a>
+        </div>
+
+        <div class="Menu">
+            <a href="Lecythidaceae.html">
+                <img src="Image/icon-l.png" width="50px" height="40px"><br><!--ใส่รูปไอคอนพันธุ์(แก้รูปได้)-->
+            </a>
+
+            <a href="Lecythidceae.html">วงศ์จิก</a>
+        </div>
+    </div>
+
+    <!-- ต้นไม้แนะนำ -->
+    <br>
+    <p class="topic">ต้นไม้แนะนำ</p>
+
+    <div class="d-flex"> 
+        <div class="card">
+            <img src="Image/AP2.jpg">
+            <b>ต้นลีลาวดี</b>
+            <h6>วงศ์: Apocynaceae (วงศ์ตีนเป็ด)</h6>
+            <h6>ชื่อวิทยาศาสตร์: Plumeria spp.</h6>
+            <a href="#" class="btn btn-success">ไปที่ต้นไม้</a>
+        </div>
+
+        <div class="card">
+            <img src="Image/F10.jpg">
+            <b>ต้นกัลปพฤกษ์</b>
+            <h6>วงศ์: Fabaceae (วงศ์ถั่ว)</h6>
+            <h6>ชื่อวิทยาศาสตร์: Cassia bakeriana</h6>
+            <a href="#" class="btn btn-success">ไปที่ต้นไม้</a>
+        </div>
+
+        <div class="card">
+            <img src="Image/F9.jpg">
+            <b>ต้นคูณ</b>
+            <h6>วงศ์: Fabaceae (วงศ์ถั่ว)</h6>
+            <h6>ชื่อวิทยาศาสตร์: Cassia fistula</h6>
+            <a href="#" class="btn btn-success">ไปที่ต้นไม้</a>
+        </div>
+    </div>
+
+    <p class="topic text-center">ต้นไม้นิยมปลูก</p>
+
+    <div id="popularCarousel" class="carousel slide custom-carousel-area" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <div class="card tree-single-card">
+                        <img src="Image/F2.jpg" class="card-img-top">
+                        <div class="card-body text-start"> <h5 class="card-title"><b>ต้นจามจุรี</b></h5>
+                            <p class="card-text mb-1">วงศ์: Fabaceae</p>
+                            <p class="card-text mb-3 text-muted small"><i>ชื่อวิทยาศาสตร์: Samanea saman (Jacq.) Merr.</i></p>
+                            
+                            <a href="https://www.google.com/maps?q=13.8193,100.0441" target="_blank" class="btn btn-success w-100">ไปที่ต้นไม้</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="card tree-single-card">
+                        <img src="Image/F7.jpg" class="card-img-top">
+                        <div class="card-body text-start">
+                            <h5 class="card-title"><b>ต้นมะขาม</b></h5>
+                            <p class="card-text mb-1">วงศ์: Fabaceae</p>
+                            <p class="card-text mb-3 text-muted small"><i>ชื่อวิทยาศาสตร์: Tamarindus indica L.</i></p>
+                            <a href="https://www.google.com/maps?q=13.8195,100.0445" target="_blank" class="btn btn-success w-100">ไปที่ต้นไม้</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#popularCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon custom-nav-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#popularCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon custom-nav-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+    <!--<footer: เป็นแท็ก HTML5 ที่เอาไว้บอกว่านี่คือส่วนท้ายเว็บ (ดีต่อ SEO)-->
+    <footer class="footer">
+        <p>© 2026 ต้นไม้ในศิลปากร - รายวิชา WEB TECHNOLOGY (520112)</p>
+        <p>คณะวิทยาศาสตร์ มหาวิทยาลัยศิลปากร</p>
+        <p>จัดทำโดย กลุ่มGreenTree | ข้อมูลนี้ใช้เพื่อการศึกษาเท่านั้น</p>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <!--<การ์ดเลื่อน Carousel-->
+</body>
+
+</html>
